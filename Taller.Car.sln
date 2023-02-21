@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Service", "2- Service", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taller.Car.API", "src\Taller.Car.API\Taller.Car.API.csproj", "{4255FC2F-F4C1-4424-BBF2-14AAE03000E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2- CrossCutting", "4.2- CrossCutting", "{0F3EE1A5-D8F1-4768-AC3B-F43A590A9B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taller.Car.Infra.CrossCutting", "Taller.Car.Infra.CrossCutting\Taller.Car.Infra.CrossCutting.csproj", "{776BC611-8999-44EC-9BF0-3776D188AEB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,10 @@ Global
 		{4255FC2F-F4C1-4424-BBF2-14AAE03000E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4255FC2F-F4C1-4424-BBF2-14AAE03000E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4255FC2F-F4C1-4424-BBF2-14AAE03000E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776BC611-8999-44EC-9BF0-3776D188AEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776BC611-8999-44EC-9BF0-3776D188AEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776BC611-8999-44EC-9BF0-3776D188AEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776BC611-8999-44EC-9BF0-3776D188AEB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +54,8 @@ Global
 		{C0D5D682-F1B9-45E7-96EB-0DF26BC72509} = {1ECC5686-F142-4110-9EDE-A9737DD07966}
 		{CF2D0654-5D14-43EE-9D4C-68C8B11D92C5} = {C0D5D682-F1B9-45E7-96EB-0DF26BC72509}
 		{4255FC2F-F4C1-4424-BBF2-14AAE03000E2} = {F9869A0D-4D1C-4529-80E5-BE81DFA4AC15}
+		{0F3EE1A5-D8F1-4768-AC3B-F43A590A9B65} = {1ECC5686-F142-4110-9EDE-A9737DD07966}
+		{776BC611-8999-44EC-9BF0-3776D188AEB6} = {0F3EE1A5-D8F1-4768-AC3B-F43A590A9B65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A3D7BA7-CAA2-41B8-BB56-AF7C3527AF84}
